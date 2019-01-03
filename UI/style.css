@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+.topnavbar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #75787a;
+	overflow: auto;
+}
+
+/* Navbar links */
+.topnavbar a {
+	float: left;
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 12px;
+	color: #111111;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+
+#questions, #signin, #signup, #admin{
+	float: right;
+    color: #111111;
+    margin-right: 5px;
+    text-decoration: none;
+    background: #4DC408;
+    font-size: 17px;
+    border-radius: 24px;
+}
+
+#questions:hover, #signin:hover, #signup:hover, #admin:hover {
+	background: #3186c6;
+}
