@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background: #94abd1;
 }
 
 /* Style the navigation bar */
@@ -24,7 +25,15 @@
 	font-size: 17px;
 }
 
-
+#logo {
+	float: left;
+    color: #166bf4;
+    margin-right: 5px;
+    text-decoration: none;
+    background: #4DC408;
+    font-size: 17px;
+    border-radius: 24px;
+}
 #questions, #signin, #signup, #admin{
 	float: right;
     color: #111111;
@@ -37,4 +46,39 @@
 
 #questions:hover, #signin:hover, #signup:hover, #admin:hover {
 	background: #3186c6;
+}
+
+.row1 {
+	margin-left: 70px;
+	margin-right: 70px;
+
+}
+
+.column1 {
+	margin-top: 70px;
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+
+}
+
+#myImg {
+	width: 420px;
+	height: 250px;
+	border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+  }
+  .topnavbar a {
+  	float: none;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: ;
+    padding: 6px;
+  }
+
 }
