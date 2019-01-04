@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  background: #94abd1;
 }
 
 /* Style the navigation bar */
@@ -9,7 +8,8 @@
 	left: 0;
 	top: 0;
 	width: 100%;
-	background-color: #75787a;
+	padding: 2px;
+	background-color: #c67773;
 	overflow: auto;
 }
 
@@ -20,7 +20,6 @@
 	margin-top: 8px;
 	margin-bottom: 8px;
 	padding: 12px;
-	color: #111111;
 	text-decoration: none;
 	font-size: 17px;
 }
@@ -30,18 +29,17 @@
     color: #166bf4;
     margin-right: 5px;
     text-decoration: none;
-    background: #4DC408;
-    font-size: 17px;
-    border-radius: 24px;
+    font-size: 18px;
+    font-weight: bold;
 }
 #questions, #signin, #signup, #admin{
 	float: right;
     color: #111111;
     margin-right: 5px;
     text-decoration: none;
-    background: #4DC408;
     font-size: 17px;
     border-radius: 24px;
+    font-weight: bold;
 }
 
 #questions:hover, #signin:hover, #signup:hover, #admin:hover {
@@ -49,16 +47,20 @@
 }
 
 .row1 {
+	margin-top: 120px;
 	margin-left: 70px;
 	margin-right: 70px;
+	abackground: #94abd1;
+	sbackground: #2a9e77;
+
 
 }
 
 .column1 {
-	margin-top: 70px;
+	margin-top: 0px;
 	float: left;
 	width: 33.33%;
-	padding: 10px;
+	padding: 3px;
 
 }
 
@@ -66,6 +68,21 @@
 	width: 420px;
 	height: 250px;
 	border-radius: 20px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 2px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	width: 100%;
+  	background-color: #c67773;
+  	overflow: auto;
 }
 
 @media screen and (max-width: 600px) {
