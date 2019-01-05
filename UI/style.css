@@ -32,7 +32,7 @@
     font-size: 18px;
     font-weight: bold;
 }
-#questions, #signin, #signup, #admin{
+#questions, #signin, #signup, #admin {
 	float: right;
     color: #111111;
     margin-right: 5px;
@@ -81,7 +81,82 @@
   	overflow: auto;
 }
 
-@media screen and (max-width: 960px) {
+
+/* Sign up form*/
+/* Input fields width */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #a4c2f2;
+  outline: none;
+}
+
+input[type=checkbox] {
+	margin-bottom: 10px;
+}
+
+.terms {
+	color:#1f619b;
+}
+
+/* buttons style*/
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+  color: #4253f4;
+}
+
+.cancelbtn:hover {
+	color: #b71717;
+}
+
+/* Floats the cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+	float: left;
+	width: 50%;
+	border-radius: 18px;
+}
+
+/* Add padding to container elements */
+.container {
+	padding: 16px;
+}
+
+/* signup (background) */
+.signup {
+	padding-top: 40px;
+	dposition: fixed;
+}
+/* form Content */
+.form-content {
+  background-color: #9a9ca0;
+  margin: 2% auto 15% auto; /* 3% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  height: 615px;
+  width: 50%;
+  xposition: fixed;
+}
+
+
+@media screen and (max-width:300px) {
   .column1 {
     width: auto;
     padding: 2px;
@@ -114,4 +189,33 @@
 	height: 250px;
 	border-radius: 20px;
 
+}
+.cancelbtn, .signupbtn {
+     width: 100%;
+     padding: 10px;
+  }
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 10px;
+	margin: 1px 0 2px 0;
+}
+input[type=checkbox] {
+	margin-bottom: 3px;
+}
+.term {
+	font-size: 80%;
+}
+.signup { 
+  left: 0;
+  top: 50px;
+  width: 100%; 
+  height: 100%;
+  padding-top: 1px;
+  overflow: auto;
+}
+.form-content {
+  margin: 50% auto 25% auto; /* 3% from the top, 15% from the bottom and centered */
+  height: 70%;
+  width: 90%; 
+}
 }
