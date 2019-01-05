@@ -143,7 +143,7 @@ button:hover {
 /* signup (background) */
 .signup {
 	padding-top: 40px;
-	position: fixed;
+	dposition: fixed;
 }
 /* form Content */
 .form-content {
@@ -152,6 +152,7 @@ button:hover {
   border: 1px solid #888;
   height: 615px;
   width: 50%;
+  xposition: fixed;
 }
 
 
