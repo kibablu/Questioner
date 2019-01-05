@@ -32,7 +32,7 @@
     font-size: 18px;
     font-weight: bold;
 }
-#questions, #signin, #signup, #admin{
+#questions, #signin, #signup, #admin {
 	float: right;
     color: #111111;
     margin-right: 5px;
@@ -130,34 +130,28 @@ button:hover {
 
 /* Floats the cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-  border-radius: 18px;
+	float: left;
+	width: 50%;
+	border-radius: 18px;
 }
 
 /* Add padding to container elements */
 .container {
-  padding: 16px;
+	padding: 16px;
 }
 
 /* signup (background) */
 .signup {
-  position: fixed;  
-  z-index: 1; 
-  left: 0;
-  top: -20px;
-  width: 100%; 
-  height: 100%;
-  padding-top: 50px;
+	padding-top: 40px;
+	position: fixed;
 }
-
 /* form Content */
 .form-content {
   background-color: #9a9ca0;
-  margin: 3% auto 15% auto; /* 3% from the top, 15% from the bottom and centered */
+  margin: 2% auto 15% auto; /* 3% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  height: 87%;
-  width: 50%; 
+  height: 615px;
+  width: 50%;
 }
 
 
