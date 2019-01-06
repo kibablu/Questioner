@@ -47,9 +47,14 @@
 }
 
 .row1 {
-	margin-top: 120px;
+	margin-top: 80px;
 	margin-left: 70px;
 	margin-right: 70px;
+  overflow: auto;
+}
+
+body {
+  background: #a4abb5;
 }
 
 .column1 {
@@ -233,6 +238,29 @@ button[type=ask]:hover {
 	float: left;
 	border-radius: 21px;
 	padding: 1px;
+}
+
+/* Profile */
+h4 {
+  color: #196de5
+}
+.column2, .column3, .column4 {
+  margin-top: 0px;
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  border-right: 1px solid;
+  height: 850px;
+}
+
+#date {
+  font-style: italic;
+  color: #db2315;
+}
+
+#meetup{
+  font-style: italic;
+  color: #0233d6;
 }
 
 @media screen and (max-width:600px) {
