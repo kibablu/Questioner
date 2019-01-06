@@ -255,7 +255,8 @@ h4 {
 
 #date {
   font-style: italic;
-  color: #db2315;
+  scolor: #db2315;
+  color: #14a9e0;
 }
 
 #meetup{
@@ -263,6 +264,54 @@ h4 {
   color: #0233d6;
 }
 
+.column5, .column6 {
+  margin-top: 0px;
+  float: left;
+  height: 850px;
+}
+
+.column5 {
+   border-right: 1px solid;
+    width: 50%;
+    padding-left: 1px;
+}
+
+.column6 {
+    width: 50%;
+    padding: 20px;
+}
+.container{
+    width: 100%;
+    padding: 0px;
+    clear: both;
+}
+button[type=button]{
+  width: 150px;
+  padding: 5px;
+  border-radius: 17px;
+}
+.fa{
+  font-size: 38px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.edit{
+  color: #1152dd;
+}
+
+.trash{
+  color: #d6395e;
+}
+
+.edit:hover {
+  color: #fcfcff;
+  background-color: #0461f7;
+}
+
+.trash:hover {
+  color: #fcfcff;
+  background: #f7042c;
+}
 @media screen and (max-width:600px) {
   .column1 {
     width: auto;
