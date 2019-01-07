@@ -14,10 +14,10 @@ Please click [https://philipotieno.github.io/Questioner/](https://philipotieno.g
 ![Login page screenshot](signin.png)
 
 
-![View Meetups page screenshot](meetup.png)
+![View Meetups page screenshot](meetups.png)
 
 
 ![Profile page screenshot](profile.png)
 
 
-![Admin page screenshot](view.png)
+![Admin page screenshot](admin.png)
