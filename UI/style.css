@@ -128,6 +128,11 @@ button:hover {
   opacity:1;
   color: #4253f4;
 }
+.cancelbtn {
+  height: 45px;
+  background-color: #f44336;
+
+}
 
 .cancelbtn:hover {
 	color: #b71717;
@@ -157,7 +162,7 @@ button:hover {
   border: 1px solid #888;
   height: 615px;
   width: 50%;
-  xposition: fixed;
+  padding: 10px;
 }
 
 /* Sign in  */
@@ -172,6 +177,7 @@ button:hover {
   border: 1px solid #888;
   height: 415px;
   width: 35%;
+  padding: 10px;
 }
 
 /* meetup page */
@@ -255,8 +261,7 @@ h4 {
 
 #date {
   font-style: italic;
-  scolor: #db2315;
-  color: #14a9e0;
+  color: #ea0460;
 }
 
 #meetup{
@@ -312,6 +317,9 @@ button[type=button]{
   color: #fcfcff;
   background: #f7042c;
 }
+
+
+
 @media screen and (max-width:600px) {
   .column1 {
     width: auto;
@@ -349,6 +357,8 @@ button[type=button]{
      width: 100%;
      padding: 10px;
   }
+
+
 input[type=text], input[type=password] {
 	width: 100%;
 	padding: 10px;
