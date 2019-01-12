@@ -5,19 +5,19 @@ Questioner helps the meetup organizer prioritize questions to be answered. Other
 Please click [https://philipotieno.github.io/Questioner/](https://philipotieno.github.io/Questioner/) to view my UI pages
 
 
-![home page screenshot](index.png)
+![home page screenshot](Screenshots/index.png)
 
 
-![Sign up page screenshot](signup.png)
+![Sign up page screenshot](Screenshots/signup.png)
 
 
-![Login page screenshot](signin.png)
+![Login page screenshot](Screenshots/signin.png)
 
 
-![View Meetups page screenshot](meetups.png)
+![View Meetups page screenshot](Screenshots/meetups.png)
 
 
-![Profile page screenshot](profile.png)
+![Profile page screenshot](Screenshots/profile.png)
 
 
-![Admin page screenshot](admin.png)
+![Admin page screenshot](Screenshots/admin.png)
