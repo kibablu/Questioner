@@ -5,19 +5,32 @@ Questioner helps the meetup organizer prioritize questions to be answered. Other
 Please click [https://philipotieno.github.io/Questioner/](https://philipotieno.github.io/Questioner/) to view my UI pages
 
 
-![home page screenshot](Screenshots/index.png)
+# Features
+
+- Index page
+- User can create an account
+- User can log in
+- User can view profile
+- User can post a question to a meetup
+- User can upvote a question
+- User can downvote a question
+- User can comment on a question
+- User can view questions commented on
+- Admin can create a meetup
+- Admin can delete a meetup
+
+# How should this be manually tested?
+- Clone the repo
+`$git clone https://github.com/Philipotieno/Questioner.git` 
+- Cd into the directory
+`$ cd Questioner`
+- Open <file>.html file using a browser
 
 
-![Sign up page screenshot](Screenshots/signup.png)
+# PT Stories
+[https://www.pivotaltracker.com/n/projects/2235179](https://www.pivotaltracker.com/n/projects/2235179)
 
 
-![Login page screenshot](Screenshots/signin.png)
+## Author
 
-
-![View Meetups page screenshot](Screenshots/meetups.png)
-
-
-![Profile page screenshot](Screenshots/profile.png)
-
-
-![Admin page screenshot](Screenshots/admin.png)
+- Philip M. Otieno
