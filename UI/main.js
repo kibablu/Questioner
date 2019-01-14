@@ -5,3 +5,7 @@ function signin(){
 function cancel(){
 	window.location =  "../index.html";
 }
+
+function signup(){
+	window.location =  "signin.html";
+}
