@@ -26,12 +26,41 @@
 
 #logo {
 	float: left;
-    color: #166bf4;
+    color: #311de8;
     margin-right: 5px;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
 }
+
+.container1 {    
+  width: 50%;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.container1 h1{
+    font-size: 50px;
+    margin-top: 100px;
+    color: #311de8;
+}
+#item {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px #311de8;
+}
+.index{
+  background-image: url("img/background.png");
+  background-repeat: no-repeat scroll left center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 100%;
+  text-align: center;
+}
+
 #questions, #signin, #signup, #admin {
 	float: right;
     color: #111111;
@@ -51,10 +80,6 @@
 	margin-left: 70px;
 	margin-right: 70px;
   overflow: auto;
-}
-
-body {
-  background: #a4abb5;
 }
 
 .column1 {
@@ -182,7 +207,7 @@ button:hover {
 
 /* meetup page */
 .meetup {
-	smargin-top: 20px;
+	margin-top: 20px;
 	margin: 0 auto auto auto;
 	background: #;
 	height: 100%;
@@ -195,10 +220,6 @@ button:hover {
 	margin-top: 70px;
 	margin-bottom: 30px;
 	height: 100%;
-}
-
-.body{
-	background-color: #95a9c6;
 }
 
 
@@ -319,7 +340,6 @@ button[type=button]{
 }
 
 
-
 @media screen and (max-width:600px) {
   .column1 {
     width: auto;
@@ -333,7 +353,9 @@ button[type=button]{
     width: 50%;
     padding: 6px;
   }
-
+.container1 {    
+  width: auto;
+}
  #questions, #signin, #signup, #admin {
  	float: none;
  	margin-right:auto;
