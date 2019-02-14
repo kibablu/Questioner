@@ -22,42 +22,42 @@
 	      <hr>
 
 	      <label for="name"><b>Firstname</b></label>
-	      <input type="text" placeholder="Enter firstname" name="Firstname" required>
+	      <input type="text" placeholder="Enter firstname" id="firstname" required>
 
 	      <label for="name"><b>Lastname</b></label>
-	      <input type="text" placeholder="Enter lastname" name="Lastname" required>
+	      <input type="text" placeholder="Enter lastname" id="lastname" required>
 
 	      <label for="username"><b>Username</b></label>
-	      <input type="text" placeholder="Enter Username" name="username" required>
+	      <input type="text" placeholder="Enter Username" id="username" required>
 
 	      <label for="username"><b>Phone</b></label>
-	      <input type="text" placeholder="Enter phone number" name="Phone" required>
+	      <input type="text" placeholder="Enter phone number" id="phone" required>
 
 	      <label for="email"><b>Email</b></label>
-	      <input type="text" placeholder="Enter Email" name="email" required>
+	      <input type="text" placeholder="Enter Email" id="email" required>
 
 	      <label for="psw"><b>Password</b></label>
-	      <input type="password" placeholder="Enter Password" name="psw" required>
+	      <input type="password" placeholder="Enter Password" id="password" required>
 
-	      <label for="con-psw"><b>Confirm Password</b></label>
-	      <input type="password" placeholder="Confirm Password" id="con-psw" required>
+	      <label for="con-pass"><b>Confirm Password</b></label>
+	      <input type="password" placeholder="Confirm Password" id="con_pass" required>
+
+	      <p id="success"></p>
+          <p id="error"></p>
 	      
-	      <label>
-	        <input type="checkbox" checked="checked" name="remember"> Remember me
-	      </label>
-
 	      <p class="term">By creating an account you agree to our <a class="terms" href="#">Terms & Privacy</a>.</p>
 
 	      <div class="clearfix">
-	        <button type="submit" class="signupbtn" onClick="signup()">Sign Up</button>
+	        <button type="submit" id="register-button" class="signupbtn">Sign Up</button>
 	        <button type="button" class="cancelbtn" onClick="cancel()">Cancel</button>
 	      </div>
 	    </div>
 	  </form>
 	</div>
-	<script src="main.js"></script>
 	<div class="footer">
-		<p>@Questioners 2018</p>
+		<p>@Questioners 2019</p>
 	</div>
+	<script src="main.js"></script>
+	<script src="js/signup.js"></script>
 </body>
 </html>
