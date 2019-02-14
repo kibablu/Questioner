@@ -14,23 +14,22 @@
 		<a href="meetup.html" id="questions">Meetups</a>
 	</div>
 	<div class="signin">
-	  <form class="form2-content">
+	  <form class="form2-content" id="login">
 	    <div class="container">
 	      <h1>Sign in</h1>
 	      <p>Fill in this form if you have an account.</p>
 	      <hr>
 	      <label for="username"><b>Username</b></label>
-	      <input type="text" placeholder="Enter Username" name="username" required>
+	      <input type="text" placeholder="Enter Username" id="username" required>
 
 	      <label for="psw"><b>Password</b></label>
-	      <input type="password" placeholder="Enter Password" name="psw" required>
-	      
-	      <label>
-	        <input type="checkbox" checked="checked" name="remember"> Remember me
-	      </label>
+	      <input type="password" placeholder="Enter Password" id="psw" required>
+
+            <p id="success"></p>
+            <p id="error"></p>
 
 	      <div class="clearfix">
-	        <button type="submit" class="signupbtn" onClick="signin()">Sign in</button>
+	        <button type="submit" class="signupbtn">Sign in</button>
 	        <button type="button" class="cancelbtn" onClick="cancel()">Cancel</button>
 	      </div>
 	    </div>
@@ -40,5 +39,6 @@
 		<p>@Questioners 2018</p>
 	</div>
 	<script src="main.js"></script>
+	<script src="js/login.js"></script>
 </body>
 </html>
