@@ -75,27 +75,6 @@
 	background: #3186c6;
 }
 
-.row1 {
-	margin-top: 80px;
-	margin-left: 70px;
-	margin-right: 70px;
-  overflow: auto;
-}
-
-.column1 {
-	margin-top: 0px;
-	float: left;
-	width: 33.33%;
-	padding: 3px;
-
-}
-
-#myImg {
-	width: 420px;
-	height: 250px;
-	border-radius: 20px;
-}
-
 .footer {
 	position: fixed;
 	bottom: 0;
@@ -185,7 +164,7 @@ button:hover {
   background-color: #9a9ca0;
   margin: 2% auto 15% auto; /* 3% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  height: 615px;
+  height: auto;
   width: 50%;
   padding: 10px;
 }
