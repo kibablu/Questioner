@@ -10,6 +10,7 @@ register.addEventListener('submit', l => {
         username: name,
         password: pass
     };
+    console.log(data);
     login_user(data);
 });
 
@@ -33,10 +34,10 @@ const login_user = (login_details) => {
             success.style.color = "#fff"
             success.style.padding = "5px";
             token = data.access_token;
-            user = JSON.parse(atob(token.split('.')[1]));
-            localStorage.setItem('loggedIn', user['username'])
-            localStorage.setItem('token', token);
-            if (user['wiseadmin']){
+            user = JSON.parse(window.atob(token.split('.')[1]));
+/*            localStorage.setItem('loggedIn', user['identity'])
+*/            localStorage.setItem('token', token);
+            if (user['identity'] === 'wiseadmin'){
                 window.location.href = 'admin.html';
                 
             }
